@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1024px) {
+
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 50%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+/* Media Query for Home page New Arrivals */
+    section #offers{
+        display: flex;
+        flex-direction:column;
+    }
+
+/* Media Query for Home page New Arrivals Images */
+    section #offers img{
+        padding: 10px;
+    }
+
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 60%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 540px) {
+
+
+/* Media Query for Home page Discount container */
+    section #carouselExampleIndicators{
+        height: 55vh;
+    }
+
+/* Media Query for Home page Discount Images */
+    section #carouselExampleIndicators img{
+        height: 55vh;
+    }
+
+
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 70%;
+    }
+
+/*  Media Query for Shopping Items */
+    #T-shirt{
+        display: flex;
+        margin-top: 2rem;
+        padding: 0rem;
+        border-bottom:  #696969 2px solid;
+    }
+
+/*  Media Query for Shopping Items Images */
+    #T-shirt img{
+        margin-right: 1rem;
+    }
+
+/*  Media Query for Shopping Items Heading */
+    #T-shirt h4, h5{
+        font-size: 1.5rem;
+        margin-left: 2.5rem;
+    }
+
+    #items_container{
+        padding: 0rem;
+    }
+
+    #men, #women, #unisex, #kids{
+        padding: 0rem;
+    } 
+
+/*  Media Query for Filter for Items */
+    #nav_2{
+        border-bottom: 2px #c7c6c6 solid;
+
+}
+
+/* Media Query for Cart page */
+ #cart{
+        flex-direction: column;
+        margin-top: 0em;
+        padding-top: 0em;
+
+    }
+
+/* Media Query for Cart Page Buttons*/
+    #cart_button{
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 414px) {
+
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 80%;
+    }
+
+/*  Media Query for Shopping Items Images */
+    #T-shirt img{
+        width: 165px;
+        height: 165px;
+    }
+
+/*  Media Query for Shopping Items Heading */
+    #T-shirt h4,h5{
+        /* margin-bottom: 2rem; */
+        font-size: 1.3rem;
+        margin-left: 1.3rem;
+    }
+/* CSS for index Page */
+#Index_page{
+    margin-top: 0em;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+/* Media Query for Home page Discount Images */
+    section #carouselExampleIndicators{
+        height: 45vh;
+    }
+
+    section #carouselExampleIndicators img{
+        height: 45vh;
+    }
+
+
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 100%;
+    }
+
+/* Media Query for Home Page New customer */
+    #Home_new_cust{
+        font-size: 0.9rem;
+    }
+    
+/*  Media Query for Shopping Items Images */
+    #T-shirt img{
+        width: 155px;
+        height: 155px;
+    }
+
+/*  Media Query for Shopping Items Heading */
+    #T-shirt h4,h5{
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    
+/* CSS for Cart Page Buttons*/
+    #cart_button button{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+    
+/* Media Query for Sign in page and signup page */
+    #LogIn_and_SignIn_container{
+        width: 100%;
+    }
+    
+    #Home_new_cust{
+        font-size: 0.9rem;
+    }
+    
+/*  Media Query for Shopping Items Heading */
+    #T-shirt h4,h5{
+        font-size: 1rem;
+    }
+    
+    
+}
+@media only screen and (max-width: 320px) {
+    
+/* Media Query for Home Page New customer */
+    #Home_new_cust{
+        font-size: 0.8rem;
+    }    
+    
+    #picss{
+        margin-left: -2rem;
+        width: 250px;
+        height: 250px;
+    }
+    
+    
+/* CSS for Cart Page Buttons*/
+    #cart_button button{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    
+/* Media Query for Home Page New customer */
+    #Home_new_cust{
+        font-size: 0.7rem;
+    }
+    
+    #T-shirt img{
+        margin-right: 0rem;
+    }
+    
+    #T-shirt {
+        padding: 0rem;
+    }
+
+/* Media Query for Cart Page Buttons*/
+    #cart_button button{
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+
+/* Media Query for Cart Page Image*/
+    #cart img{
+        width: 250px;   
+    }
+    
+}

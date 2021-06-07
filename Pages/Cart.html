@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/All_pages.css">
+        <link rel="stylesheet" href="../CSS/Media_Query.css">
+    <!-- <link rel="stylesheet" href="../CSS/Style.css"> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("Navbar.html");
+            $("#item-placeholder").load("Itemsbar.html");
+        });
+    </script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <div id="nav-placeholder">
+        </div>
+        <div id="item-placeholder">
+        </div>
+    </header>
+    <section>
+        <div class="container" id="cart">
+            <img src="../Images/Empty_basket.svg" alt="">
+            <div id="cart_elements">
+                <h1 class="mb-0">Your Basket is empty</h1>
+                <p class="mt-0 mb-3"><a href="HomePage.html" class="text-decoration-none text-info">Shop now</a></p>
+                <div class="d-flex"  id="cart_button">
+                    <button type="button" class="btn btn-primary btn-sm fw-bold me-2 shadow-lg bg-warning rounded border border-warning text-dark
+                        " onclick="window.location.href='LoginPage.html'">Sign in to your account</button>
+                    <button type="button"
+                        class="btn btn-secondary btn-sm fw-bold bg-white text-dark shadow-lg bg-body rounded"
+                        onclick="window.location.href='SignupPage.html'">Sign up now</button>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-success" role="alert">
+            <p>The price and availability of items at our store are subject to change. The shopping cart is a temporary
+                place to store a list of your items and reflects each item's most recent price.</p>
+            <hr>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+    </script>
+    <script src="javascript/HomePage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+#Index_page{
+    margin-top: 3em;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/opacity/see-through */
+}
+
+/* CSS for index Page */
+#Index_page{
+    margin-top: 3em;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/opacity/see-through */
+}
+
+/* CSS for Navbar */
+header nav #navbarSupportedContent ul a:hover{
+    border-bottom: 1px solid white;
+}
+header #nav_2 a:hover{
+    border-bottom: 1px solid black;
+}
+
+/* CSS for Sign in page and Sign up page Button */
+#button_hover{
+    background-color: #000;
+    color: white;
+    border-color: white;
+}
+
+#button_hover:hover{
+    background-color: rgb(85, 84, 84);
+}
+
+/* CSS for Home page Discount Images Container*/
+section #carouselExampleIndicators{
+    height: 83vh;
+}
+
+/* CSS for Home page Discount Images */
+section #carouselExampleIndicators img{
+    height: 83vh;
+}
+
+
+
+/* CSS for Sign in page and signup page */
+#LogIn_and_SignIn_container{
+    width: 30%;
+}
+
+
+
+/* CSS for Home page New Arrivals */
+section #offers{
+    display: flex;
+}
+
+/* CSS for Home page New Arrivals Images */
+section #offers img{
+    height: 300px;
+    width: 100%;
+}
+
+
+
+/* CSS for Home page Safety Tips Images*/
+section #safety img{
+    height: 200px;
+    width: 200px;
+}
+
+/* CSS for Home page Safety Tips*/
+section #safety{
+    overflow-y: hidden;
+}
+
+#picss{
+    width: 300px;   
+    height: 300px;
+}
+
+/* CSS for Items Filter */
+#navbarNav li a:hover{
+    font-weight: bold;
+}
+
+#navbarNav li a:focus{
+    font-weight: bold;
+}
+
+/* CSS for Items Image Size */
+#T-shirt img{
+    width: 200px;
+    height: 200px;
+}
+
+/* CSS for Items Heading Size and Design */
+#T-shirt h4:first-child{
+    font-weight: bolder;
+}
+
+#T-shirt h4{
+    color: black;
+    font-weight:normal;
+}
+
+#T-shirt h5{
+    color: #dc3545!important;
+    font-style: italic;
+}
+
+/* CSS for Cart Page */
+#cart{
+    display: flex;
+    margin-top: 3em;
+    padding-top: 3em;
+}
+
+/* CSS for Cart Page Image*/
+#cart img{
+    width: 300px; 
+    height: 180px;
+}
+
+#cart #cart_element{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+/* CSS for Cart Page Buttons*/
+#cart_button button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+}

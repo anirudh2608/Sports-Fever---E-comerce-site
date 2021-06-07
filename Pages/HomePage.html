@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../CSS/Style.css"> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/button.css">
+    <link rel="stylesheet" href="../CSS/All_pages.css">
+    <link rel="stylesheet" href="../CSS/Media_Query.css">
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("Navbar.html");
+            $("#item-placeholder").load("Itemsbar.html");
+        });
+    </script>
+    <title>Sports Fever - Home</title>
+</head>
+
+<body>
+    <header>
+        <div id="nav-placeholder">
+        </div>
+        <div id="item-placeholder">
+        </div>
+    </header>
+    <section>
+        <!-- <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav> -->
+        <div class="bg-light">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="Caps.html"><img src="../Images/Caps Ad.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="Sunglasses.html"><img src="../Images/Sunglasses Ad.jpg" class="d-block w-100" alt="..."></a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="Shoes.html"><img src="../Images/Shoes Ad.jpg" class="d-block w-100" alt="..."></a>
+                    </div></a>
+
+                    <div class="carousel-item">
+                        <a href="T-shirts.html"><img src="../Images/T-shirt Ad.png" class="d-block w-100" alt="..."></a>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="container-fluid my-5">
+                <h1 class="text-center">New Arrivals</h1>
+                <div class="container">
+                    <div id="offers">
+                        <div class="col mx-2 px-0">
+                            <a href="Lowers/Women-new-lower.html"><img src="../images/Women Lower New.jpg" alt=""
+                                    class=" border rounded"></a>
+                        </div>
+                        <div class="col mx-2">
+                            <a href="Shorts/Men-new-shorts.html"><img src="../images/Mes's shorts new.jpg" alt=""
+                                    class=" border rounded"></a>
+                        </div>
+                        <div class="col mx-2">
+                            <a href="Headband/Unisex-new-headband.html"><img src="../images/Unisex headband new.jpg"
+                                    alt="" class=" border rounded"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white pt-2">
+                <h3 class="ms-2 mb-3">Our response to COVID-19</h3>
+
+                <div class="container-fluid" id="safety">
+                    <div class="d-flex justify-content-between overflow-scrolly">
+                        <div class="container">
+                            <img src="../images/Donate.jpg" alt="">
+                        </div>
+                        <div class="container">
+                            <img src="../images/Sellers.jpg" alt="">
+                        </div>
+                        <div class="container">
+                            <img src="../images/Tips.jpg" alt="">
+                        </div>
+                        <div class="container"><a href="https://www.cowin.gov.in/">
+                            <img src="../images/Registeration.jpg" alt=""></a>
+                        </div>
+                        <div class="container">
+                            <img src="../images/Delivery.jpg" alt="">
+                        </div>
+                        <div class="container">
+                            <img src="../images/pay.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-fluid bg-white mt-5 py-3 border-top border-bottom  border-5 border-light">
+                <p class="text-center my-0">See personalized recommendations</p>
+                <div class="d-grid gap-2 col-6 mx-auto my-0">
+                    <button class="btn btn-primary btn-sm mx-auto px-4 border rounded" id="button_hover"
+                         type="button"
+                        onclick="window.location.href='LoginPage.html' ">Sign in</button>
+                    <div class="d-flex flex-row mx-auto my-0 p-0" id="Home_new_cust">
+                        <p>New customer?</p><a href="SignupPage.html" class="link-primary text-decoration-none">start
+                            here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto text-white" href="#">Back to Top</a>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
